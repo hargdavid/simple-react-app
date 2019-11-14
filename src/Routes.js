@@ -19,6 +19,7 @@ const Routes = () => {
         <Link to={'/page-2'}>Page2</Link>
       </nav>
 
+      <p>test</p>
       <div>
         <TransitionGroup>
         <CSSTransition
