@@ -12,22 +12,20 @@ const Routes = () => {
 
   return (
     <>
-      {console.log(location.key)}
       <nav>
         <Link to={'/'}>Home</Link>
         <Link to={'/page-1'}>Page1</Link>
         <Link to={'/page-2'}>Page2</Link>
       </nav>
 
-      <p>test</p>
       <div>
         <TransitionGroup>
         <CSSTransition
           key={location.key}
           classNames="fade"
-          exit={false}
-          enter={true}
-          timeout={100}
+          // exit={false}
+          // enter={true}
+          timeout={10}
         >
 
           <Switch location={location}>
