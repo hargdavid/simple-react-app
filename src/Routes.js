@@ -17,13 +17,12 @@ const Routes = () => {
         <CSSTransition
           key={location.key}
           classNames="example"
-          // exit={false}
           timeout={2500}
         >
           <Switch location={location}>
-            <Route exact path={'/'}>
-              <Home/>
-            </Route>
+                <Route exact path={'/'}>
+                  <Home/>
+                </Route>
             <Route path={'/page-1'}>
               <Page1/>
             </Route>

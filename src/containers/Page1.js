@@ -5,7 +5,7 @@ import Square from '../components/Square/Square'
 import './Page.css'
 
 export default () =>
-  <div className={"example"}>
+  <div className={"example page"}>
     This is page 1
     <Square colour={'red'}/>
   </div>

@@ -1,15 +1,15 @@
-.example {
+.example-1 {
     position: absolute;
     /*top: 0;*/
 }
 
-.example-enter {
+.example-1-enter {
     bottom: 200px;
     opacity: 0;
     z-index: 1;
 }
 
-.example-enter-active{
+.example-1-enter-active{
     opacity: 1;
     bottom: 0;
     z-index: 1;
@@ -17,13 +17,13 @@
     transition: all 250ms linear;
 }
 
-.example-exit{
+.example-1-exit{
     opacity: 1;
     z-index: 0;
     bottom: 0;
 }
 
-.example-exit-active{
+.example-1-exit-active{
     opacity: 0;
     z-index: 0;
     /*transition: opacity 2500ms linear 2500ms;*/
